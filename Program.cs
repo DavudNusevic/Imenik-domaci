@@ -55,13 +55,9 @@ namespace ImenikXYZZZ
 						Imena.Add(unosImenaIBrTel);
 						do
 						{
-							Console.Write("Unesite tel( 0 za izlazak ):  ");
+							Console.Write("Unesite tel:  ");
 							unosImenaIBrTel = Console.ReadLine();
 						} while (string.IsNullOrWhiteSpace(unosImenaIBrTel));
-						if (unosImenaIBrTel == "0")
-						{
-							break;
-						}
 						BrTel.Add(unosImenaIBrTel);
 
 						break;
